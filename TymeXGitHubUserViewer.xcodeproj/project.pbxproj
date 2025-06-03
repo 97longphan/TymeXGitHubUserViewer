@@ -39,6 +39,9 @@
 		6B1E25A72DEF07F90000B4C8 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E25A62DEF07F90000B4C8 /* MockURLProtocol.swift */; };
 		6B1E25A92DEF08190000B4C8 /* APIServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E25A82DEF08190000B4C8 /* APIServicesTests.swift */; };
 		6B1E25AB2DEF08920000B4C8 /* UserListCacheServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E25AA2DEF08920000B4C8 /* UserListCacheServiceTests.swift */; };
+		6B1FBAF52DEF430A00CD1CC4 /* UserListTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FBAF42DEF430700CD1CC4 /* UserListTableViewCellTests.swift */; };
+		6B1FBAF72DEF448A00CD1CC4 /* MockNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FBAF62DEF448A00CD1CC4 /* MockNavigationController.swift */; };
+		6B1FBAF92DEF449E00CD1CC4 /* UserListRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FBAF82DEF449E00CD1CC4 /* UserListRouterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,9 @@
 		6B1E25A62DEF07F90000B4C8 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
 		6B1E25A82DEF08190000B4C8 /* APIServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServicesTests.swift; sourceTree = "<group>"; };
 		6B1E25AA2DEF08920000B4C8 /* UserListCacheServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCacheServiceTests.swift; sourceTree = "<group>"; };
+		6B1FBAF42DEF430700CD1CC4 /* UserListTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTableViewCellTests.swift; sourceTree = "<group>"; };
+		6B1FBAF62DEF448A00CD1CC4 /* MockNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNavigationController.swift; sourceTree = "<group>"; };
+		6B1FBAF82DEF449E00CD1CC4 /* UserListRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListRouterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +227,7 @@
 		6B1E25922DEEFAE40000B4C8 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
+				6B1FBAF62DEF448A00CD1CC4 /* MockNavigationController.swift */,
 				6B1E25932DEEFAFB0000B4C8 /* MockAPIService.swift */,
 				6B1E25952DEEFB990000B4C8 /* MockCacheService.swift */,
 				6B1E25972DEEFBD20000B4C8 /* MockUserListRouter.swift */,
@@ -232,6 +239,8 @@
 		6B1E25A12DEF070A0000B4C8 /* UserList */ = {
 			isa = PBXGroup;
 			children = (
+				6B1FBAF82DEF449E00CD1CC4 /* UserListRouterTests.swift */,
+				6B1FBAF42DEF430700CD1CC4 /* UserListTableViewCellTests.swift */,
 				6B1E25992DEEFBFF0000B4C8 /* UserListViewModelTests.swift */,
 				6B1E259F2DEF04760000B4C8 /* UserListViewModelNonRxTests.swift */,
 			);
@@ -395,8 +404,11 @@
 				6B1E25A42DEF07530000B4C8 /* UserDetailViewModelTests.swift in Sources */,
 				6B1E25AB2DEF08920000B4C8 /* UserListCacheServiceTests.swift in Sources */,
 				6B1E25A92DEF08190000B4C8 /* APIServicesTests.swift in Sources */,
+				6B1FBAF52DEF430A00CD1CC4 /* UserListTableViewCellTests.swift in Sources */,
 				6B1E25942DEEFAFB0000B4C8 /* MockAPIService.swift in Sources */,
 				6B1E259A2DEEFBFF0000B4C8 /* UserListViewModelTests.swift in Sources */,
+				6B1FBAF92DEF449E00CD1CC4 /* UserListRouterTests.swift in Sources */,
+				6B1FBAF72DEF448A00CD1CC4 /* MockNavigationController.swift in Sources */,
 				6B1E25982DEEFBD20000B4C8 /* MockUserListRouter.swift in Sources */,
 				6B1E25A02DEF04770000B4C8 /* UserListViewModelNonRxTests.swift in Sources */,
 				6B1E25962DEEFB990000B4C8 /* MockCacheService.swift in Sources */,
