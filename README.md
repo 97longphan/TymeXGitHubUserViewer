@@ -27,6 +27,14 @@ That's it — no additional configuration is required.
 
 ---
 
+## 🧭 Features Implemented
+
+- ✅ Admin can browse GitHub users in a scrollable list.
+- ✅ Pagination implemented: **20 users are fetched per request**.
+- ✅ Local caching using `UserDefaults` enables immediate data display when reopening the app.
+- ✅ Tapping a user navigates to a **detail screen** showing extended profile information (avatar, username, etc.).
+- ✅ Unit test for ViewModel, Service,...
+
 ## 📦 Integrated Libraries (via Swift Package Manager)
 
 | Library         | Purpose                                                                 |
@@ -52,4 +60,11 @@ The project includes unit tests for ViewModels, Services:
 
 - **Reactive Testing**: `RxTest` and `RxBlocking` are used to test reactive streams and state transitions.
 - **Non-Reactive Testing**: In addition to Rx, we demonstrate traditional testing by exposing clean synchronous outputs from ViewModels to assert logic independently of Rx abstractions.
+---
+
+## 🧰 Environment
+
+- Developed & tested using **Xcode 15.1**
+- Target deployment: **iOS 14.0 and above**
+
 ---
