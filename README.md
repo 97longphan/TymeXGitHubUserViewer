@@ -1,26 +1,55 @@
-# TymeXGitHubUserViewer
+# GitHub User Viewer
 
-An iOS application built with Swift, MVVM, and RxSwift to view GitHub users and their profiles.
+---
 
-## Features
+## 👤 Author
 
-- Fetch list of GitHub users with pagination
-- View detailed user profile
-- Cache user list using UserDefaults
-- Clear cache and reload data
-- Reactive MVVM architecture using RxSwift & RxCocoa
+Developed by **Phan Hoàng Long**  
+For showcasing iOS development skills as part of the application process for the **iOS Developer** position at **Tymex**.
 
-## Architecture
+## 🚀 Getting Started
 
-- **MVVM** with reactive bindings
-- **RxSwift** for reactive state management
-- **Coordinator Pattern** for navigation
-- **UserDefaults** for simple local caching
+The project uses Swift Package Manager (SPM) to manage third-party libraries.  
+To run the project:
 
-## Project Structure
+1. Clone the repository
+2. Open the `.xcodeproj` or `.xcworkspace` file in Xcode
+3. **Resolve Swift Packages**
+4. Build and run the app
 
-TODO
+That's it — no additional configuration is required.
 
-Check lại logic test, RX & NonRx
-Check lại vụ cache
-Viết lại readme
+---
+
+## 🧱 Project Architecture
+
+- **MVVM (Model - View - ViewModel)
+
+---
+
+## 📦 Integrated Libraries (via Swift Package Manager)
+
+| Library         | Purpose                                                                 |
+|----------------|-------------------------------------------------------------------------|
+| **RxSwift**     | Enables reactive programming and data binding in the MVVM layer         |
+| **RxCocoa**     | Provides reactive extensions for UIKit                                  |
+| **Kingfisher**  | Efficiently loads and caches images from URLs                           |
+| **RxTest**      | Provides tools for simulating time-based sequences in unit tests        |
+| **RxBlocking**  | Allows blocking on observables for simplified test assertions           |
+
+---
+
+## 🔗 Data Layer
+
+- Uses **native `URLSession`** for API calls to GitHub's public API.
+- **UserDefaults** is used to cache the user list locally to reduce API calls and improve UX.
+
+---
+
+## 🧪 Unit Testing
+
+The project includes unit tests for ViewModels, Services:
+
+- **Reactive Testing**: `RxTest` and `RxBlocking` are used to test reactive streams and state transitions.
+- **Non-Reactive Testing**: In addition to Rx, we demonstrate traditional testing by exposing clean synchronous outputs from ViewModels to assert logic independently of Rx abstractions.
+---
